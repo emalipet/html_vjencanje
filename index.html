@@ -10,26 +10,47 @@
     <div class="newspaper-article">
         <h1 class="headline">Breaking News</h1>
         <h2 class="subheadline">Svečano vjenčanje Eme i Franka obilježit će se 23. kolovoza 2024.</h2>
-        <p class="article-text">Uzbudljivo vjenčanje Eme i Franka predstoji u petak, 23. kolovoza 2024. godine, s početkom u 17 sati. Okupljanje gostiju planirano je već u 14 sati u caffe baru Volta na adresi Dragutina Golika 30, gdje će se započeti s veselim atmosferom.</p>
+        <img class="slika" src="slika.jpg" alt="Stara novinska slika" class="side-image">    
+        <p class="article-text" >Uzbudljivo vjenčanje Eme i Franka predstoji u petak, 23. kolovoza 2024. godine, s početkom u 17 sati.
+             Okupljanje gostiju planirano je već u 14 sati u caffe baru Volta na adresi Dragutina Golika 30, gdje će se započeti s veselim atmosferom.<br><br>
+            Nakon okupljanja, svečana povorka krenut će prema Crkvi Uznesenja BDM na adresi ulica Stenjevc 9, 
+            gdje će mladenci izreći svoje zavjete i sklopiti crkveni brak. <br><br>
+            Ema, uz osmijeh, izjavljuje: "Svidjelo nam se biti u centru pozornosti kad smo sklapali građanski brak."<br><br>
+
+            Franko dodaje: "Željeli smo građanski brak potvrditi i crkvenim brakom i to podijeliti s rodbinom i prijateljima."<br><br>
+            
+            Nakon ceremonije, slavlje se seli u predivnu dvoranu za vjenčanja Flores, smještenu u Zagrebu na adresi ulica Velimira Škorpika 11b (Family mall). 
+            Mladenci i njihovi uzvanici nastavit će proslavu uz glazbu, ples i ukusnu hranu sve do ranih jutarnjih sati. <br><br>
+            
+            Očekuje se da će ovo biti nezaboravno iskustvo ispunjeno ljubavlju, radosti i prisnim trenucima koje će mladenci dijeliti s obitelji i prijateljima.<br>
+            
+            </p>
+            
         <!-- Ostatak teksta -->
         <p class="confirmation-text">Svoj dolazak, molimo, potvrdite ovdje do 8. kolovoza 2024.</p>
-        <form class="confirmation-form">
-            <label for="guestName">Ime i prezime:</label>
-            <input type="text" id="guestName" name="guestName">
+        <form class="confirmation-form" method="POST" action="/confirm">
+            <label for="guestName">Ime i prezime gosta:</label>
+            <input type="text" id="guestName" name="guestName"> <br>
+            <label for="companionName">Ime i prezime pratnje:</label>
+            <input type="text" id="companionName" name="companionName"><br>
+            <label for="childName">Imena djece:</label>
+            <input type="text" id="childName" name="childName"><br>
             <button type="submit">Potvrdi dolazak</button>
         </form>
+        
         <div class="schedule">
             <h2>Raspored</h2>
             <p>23.8.2024.</p>
             <ul>
                 <li>14 sati - Okupljanje caffe bar Volta</li>
-                <li>16 sati - Obred Crkva BDM</li>
+                <li>16 sati - Obred Crkva Uznesenja BDM</li>
                 <li>18 sati - Svadbena večera u sali Flores, Family mall</li>
             </ul>
         </div>
         <div class="contact-information">
             <p>Kontakt:</p>
             <p>Ema +385917610096</p>
+            <p>Franko +385912171313</p>
         </div>
     </div>
 </body>

@@ -11,6 +11,8 @@ body {
     background-color: #fff;
     padding: 20px;
     border: 2px solid #000;
+    background-image: url('old_newspaper_texture.jpg'); /* Zamijenite 'old_newspaper_texture.jpg' sa stvarnom putanjom do slike */
+    background-repeat: repeat;
 }
 
 .headline {
@@ -25,10 +27,16 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
+.slika{
+    float: right; /* Poravnajte sliku na desnu stranu */
+    width: 35%; /* Prilagodite širinu prema vašim potrebama */
+    margin-left: 20px;
+}
 
 .article-text {
     text-align: justify;
     margin-bottom: 20px;
+
 }
 
 .confirmation-text {
@@ -37,7 +45,7 @@ body {
 }
 
 .confirmation-form {
-    text-align: center;
+    text-align: left;
 }
 
 .confirmation-form label {
