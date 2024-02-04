@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.newspaper-article {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.headline {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subheadline {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.confirmation-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.confirmation-form {
+    text-align: center;
+}
+
+.confirmation-form label {
+    font-weight: bold;
+}
+
+.confirmation-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.schedule {
+    margin-top: 20px;
+}
+
+.schedule h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact-information {
+    margin-top: 20px;
+}
+
+.contact-information p {
+    font-weight: bold;
+}
